@@ -1,3 +1,9 @@
+<?php
+
+require_once 'assets/inc/Navbar.php';
+require_once 'assets/inc/Footer.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +41,11 @@
 </head>
 
 <body>
+    <?= $Navbar; ?>
+    <!-- Content Start -->
 
+    <!-- Content End -->
+    <?= $Footer; ?>
 </body>
 
 </html>
