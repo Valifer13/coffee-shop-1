@@ -1,6 +1,56 @@
 <?php
 $Footer = "
 		<!-- Footer -->
+	<!-- Section Contact -->
+	<section id=\"contact\">
+		<div id=\"maps\"></div>
+		<div class=\"container\">
+			<div class=\"row\">
+				<div class=\"col-sm-8 col-md-4 col-sm-push-2 col-md-push-8\">
+					<div class=\"ctc-item\">
+						<span class=\"section-suptitle text-center\">
+							Kontak Kami
+						</span>
+						<h2 class=\"section-title sep-type-2 text-center\">
+							Hubungi Kami
+						</h2>
+						<p class=\"tel\">+62 831 1958 7745</p>
+						<div class=\"widget\">
+							<b>Alamat</b>
+							<p>
+							Jl. Ratna No 68 G, Tonja, Denpasar Utara, Denpasar - Bali . 80239
+							</p>
+						</div>
+						<div class=\"widget\">
+							<b>Email</b>
+							<a href=\"#\">info@redsystem.id</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Section Contact -->
+
+	<!-- Section Newsletter -->
+	<section id=\"newsletter\" class=\"padd-100\">
+		<form action=\"#\" method=\"post\">
+			<div class=\"container\">
+				<div class=\"row\">
+					<div class=\"col-sm-4\">
+						<h3>Berlangganan Buletin</h3>
+					</div>
+					<div class=\"col-sm-6\">
+						<input type=\"text\" placeholder=\"Alamat Email*\">
+					</div>
+					<div class=\"col-sm-2\">
+						<button type=\"submit\">Kirim</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+	<!-- End Section Newsletter -->
 		<footer id=\"site-footer\">
 			<div class=\"container\">
 				<div class=\"row\">

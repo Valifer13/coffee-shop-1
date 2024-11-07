@@ -1,6 +1,5 @@
 <?php
 
-require_once 'assets/inc/Navbar.php';
 require_once 'assets/inc/Footer.php';
 
 ?>
@@ -11,7 +10,6 @@ require_once 'assets/inc/Footer.php';
 	<meta charset="utf-8" />
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Egprojets">
 	<meta name="description" content="" />
 	<title>Beranda</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -48,7 +46,7 @@ require_once 'assets/inc/Footer.php';
 </head>
 
 <body>
-	<?= $Navbar; ?>
+	<?= include 'assets/inc/Navbar.php' ?>
 	<!-- Content Start -->
 
 	<!-- Slide -->
@@ -568,81 +566,6 @@ require_once 'assets/inc/Footer.php';
 	</section>
 	<!-- End Section Events -->
 
-	<!-- Section Teams -->
-	<section id="team" class="padd-100">
-		<span class="section-suptitle text-center">
-			Tim Koki
-		</span>
-		<h2 class="section-title sep-type-2 text-center">
-			Koki Terbaik Untukmu
-		</h2>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 no-padd">
-					<ul class="team-carousel">
-						<li>
-							<div>
-								<img src="assets/img/demo/team/01.png" alt="" class="img-responsive">
-								<div>
-									<span>Senior Chef</span>
-									<h3>Remeno Fentos</h3>
-									<div>
-										<a href="#"><i class="fa-brands fa-twitter"></i></a>
-										<a href="#"><i class="fa-brands fa-facebook"></i></a>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div>
-								<img src="assets/img/demo/team/02.png" alt="" class="img-responsive">
-								<div>
-									<span>Adjoint Chef</span>
-									<h3>Sinta</h3>
-									<div>
-										<a href="#"><i class="fa-brands fa-twitter"></i></a>
-										<a href="#"><i class="fa-brands fa-facebook"></i></a>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div>
-								<img src="assets/img/demo/team/03.png" alt="" class="img-responsive">
-								<div>
-									<span>Junior Chef</span>
-									<h3>John Doe</h3>
-									<div>
-										<a href="#"><i class="fa-brands fa-twitter"></i></a>
-										<a href="#"><i class="fa-brands fa-facebook"></i></a>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div>
-								<img src="assets/img/demo/team/04.png" alt="" class="img-responsive">
-								<div>
-									<span>Adapter</span>
-									<h3>John Smith</h3>
-									<div>
-										<a href="#"><i class="fa-brands fa-twitter"></i></a>
-										<a href="#"><i class="fa-brands fa-facebook"></i></a>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Section Teams -->
-
 	<!-- Section Vision -->
 	<section id="vision" data-background="assets/img/demo/bg/06.jpg" class="parallax-window padd-100">
 		<h2 class="sr-only">Vision</h2>
@@ -676,57 +599,6 @@ require_once 'assets/inc/Footer.php';
 		</div>
 	</section>
 	<!-- End Section Vision -->
-
-	<!-- Section Contact -->
-	<section id="contact">
-		<div id="maps"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-md-4 col-sm-push-2 col-md-push-8">
-					<div class="ctc-item">
-						<span class="section-suptitle text-center">
-							Kontak Kami
-						</span>
-						<h2 class="section-title sep-type-2 text-center">
-							Hubungi Kami
-						</h2>
-						<p class="tel">+62 831 1958 7745</p>
-						<div class="widget">
-							<b>Alamat</b>
-							<p>
-							Jl. Ratna No 68 G, Tonja, Denpasar Utara, Denpasar - Bali . 80239
-							</p>
-						</div>
-						<div class="widget">
-							<b>Email</b>
-							<a href="#">info@redsystem.id</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Section Contact -->
-
-	<!-- Section Newsletter -->
-	<section id="newsletter" class="padd-100">
-		<form action="#" method="post">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<h3>Berlangganan Buletin</h3>
-					</div>
-					<div class="col-sm-6">
-						<input type="text" placeholder="Alamat Email*">
-					</div>
-					<div class="col-sm-2">
-						<button type="submit">Kirim</button>
-					</div>
-				</div>
-			</div>
-		</form>
-	</section>
-	<!-- End Section Newsletter -->
 
 	<!-- Content End -->
 	<?= $Footer; ?>
